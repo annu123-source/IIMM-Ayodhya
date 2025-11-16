@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splide Slider Working</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <style>
+    body { background: #f8f9fa; padding: 50px; }
+    .splide__slide img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="splide" aria-label="Example Slider">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide"><img src="https://picsum.photos/id/1011/600/400" /></li>
+        <li class="splide__slide"><img src="https://picsum.photos/id/1015/600/400" /></li>
+        <li class="splide__slide"><img src="https://picsum.photos/id/1016/600/400" /></li>
+        <li class="splide__slide"><img src="https://picsum.photos/id/1018/600/400" /></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script>
+    var splide = new Splide('.splide', {
+      type: 'loop',
+      perPage: 3,
+      perMove: 1,
+      gap: '1rem',
+      autoplay: true,
+      interval: 2000,
+      breakpoints: {
+        768: { perPage: 1 },
+        992: { perPage: 2 },
+        1200: { perPage: 3 },
+      },
+    });
+    splide.mount();
+  </script>
+</body>
+</html>
