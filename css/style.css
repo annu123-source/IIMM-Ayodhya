@@ -1,0 +1,408 @@
+
+body{
+    overflow-x: hidden;
+}
+.top_color{
+  background-color:  #0264D5;
+}
+.top_text{
+    color:#0264D5;
+}
+.card_shadow
+{
+    box-shadow: 5px 10px 10px rgba(229, 226, 226, 05);
+}
+
+.logo_height{
+    height: 115px;
+    
+}
+.achi_color{
+    background-color: #F0F8FF;
+}
+.g20{
+    height: 65px;
+}
+.sec_text{
+    font-size: 15px;
+}
+.inst_btn{
+    margin-left: -12px; 
+    
+}
+.call_us{
+    margin-left:-40px;
+}
+.nav-link:hover{
+color: black !important;
+}
+.anno_color{
+    background-color: #4169E1;
+}
+.latest_img
+{
+    height: 190px;
+}
+.card_img{
+    height: 250px;
+}
+.card_img1{
+    height: 190px;
+}
+#abc
+{
+    height:200px;
+}
+.mytext
+{
+text-align:justify;
+}
+.foot_a:hover{
+    color: #DD4B39 !important;
+}
+.useful::after{
+    content:'';
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    background-color: orangered;
+    margin-top: 40px;
+    margin-left: -110px;
+}
+.subscribe::after{
+    content:'';
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    background-color: orangered;
+    margin-top: 40px;
+    margin-left: -89px;
+}
+
+
+.ds_img{
+    height: 400px;
+    width: 100%;
+}
+.iimm_img{
+    height: 300px;
+}
+/* .contactus
+{
+    background-image: url('../images/ab.jpeg');
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.mycard
+{
+    height: 400px;
+    transition: 0.2s ease;
+    
+}
+.mycard:hover
+{
+margin-top: -20px;
+}
+.study_color{
+    background-color: #F7EFE5;
+}
+.font_size{
+    font-size: 16px;
+    padding-left: 0;
+    font-family: sans-serif;
+}
+.zoom-in div
+{
+overflow:hidden;
+}
+.zoom-in:hover img
+{
+transform:scale(1.2);
+}
+
+.twitter
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+border-radius: 50%;
+border: 1px solid #32ccee;
+background-color: #32ccee;
+}
+.google
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+border-radius: 50%;
+border: 1px solid #DD4B39;
+    background-color: #DD4B39;
+}
+.facebook
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+border-radius: 50%;
+border: 1px solid #3B5998;
+    background-color: #3B5998;
+    
+}
+.location{
+    font-size: 30px;
+    margin-left: 8px;
+    /* margin-top: 10px; */
+}
+.house{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: #0264D5;
+    color: white;
+    margin-left: 35px;
+}
+/* .aboutus
+{
+    background-image: url('../images/ab.jpeg');
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 2.7 ease;
+    overflow: hidden;
+    cursor: pointer;
+} */
+.aboutus {
+  position: relative;
+  height: 450px;
+  background: url('../images/ab.jpeg') no-repeat center center/cover;
+}
+
+/* Transparent overlay */
+.aboutus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  background-color: rgba(44, 53, 14, 0.4); /* 0.5 = 50% transparent */
+  z-index: 1;
+}
+
+.aboutus h1 {
+  position: relative;
+  color: rgb(248, 243, 243);
+  z-index: 2;
+  margin-top: 100px; /* text upar rahe */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Transparent container */
+.contact-form {
+  background: rgba(134, 174, 220, 0.1);
+  /* backdrop-filter: blur(8px); */
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  margin-left: 120px;
+   margin-top: 30px; 
+  margin-bottom: 50px;
+}
+
+.contact-form h3 {
+  color: #0264D5;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  color: black;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #120e0e;
+}
+
+.contact-form button {
+  width: 100%;
+  background: #0264D5;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0097a7;
+}
+.contact_img{
+      position: relative;
+  height:100%;
+  background: url('../images/achivewnt1.jpg') no-repeat center center/cover;
+}
+.contact_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 24, 128, 0.9); /* 0.5 = 50% transparent */
+  z-index: 1;
+}
+.aboutus h1 {
+  position: relative;
+  color: rgb(248, 243, 243);
+  z-index: 2;
+  margin-top: 100px; /* text upar rahe */
+}
+.box-shadow{
+   box-shadow: 0 0 20px rgba(62, 65, 71, 0.993);
+}
+.contact_color{
+    background-color: white;
+}
+
+.register-form {
+  background: white;
+  /* backdrop-filter: blur(8px); */
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  margin-left: 190px;
+   margin-top: 30px; 
+  margin-bottom: 50px;
+}
+
+.register-form h3 {
+  color:#0264D5 ;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.register-form input,
+.register-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  color: black;
+  font-size: 14px;
+  outline: none;
+}
+
+.register-form input::placeholder,
+.register-form textarea::placeholder {
+  color: black;
+}
+
+.register-form button {
+  width: 100%;
+  background: #0264D5;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-form button:hover {
+  background: #0097a7;
+}
+/* .Registration_img{
+background-image: url('../images/registration.png');
+background-size: cover;
+background-repeat: no-repeat;
+} */
+.address{
+    margin-top: 100px;
+}
+.fac_logo{
+font-size:50px;
+height:250px;
+}
+.tags{
+border:1px solid;
+ padding:15px;
+ border-radius:5px;
+}
+.reg_img{
+    margin-top: 30px;
+    margin-left: 70px;
+     box-shadow: 0 0 20px rgba(87, 85, 85, 0.3);
+     border-radius: 10px;
+     height: 440px;
+}
+.registration_img
+{
+  background-image: url('../images/registration.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ul
+{
+list-style-type: none;
+} 
+ li{
+display:inline;
+padding:5px;
+} 
+
+/* study sider */
+
+
+
+
+/* topic transition, animation, and transform */
+ /* transform:scale(0.8) -------zoom out ke liye 
+transform:skew(90deg)--------jhuknane ke liye
+tranfform:rotate(360deg)-------
+rotatey---y axis
+rotatex---x-axis
+animation:name duration timing-function delay iterationn-count direction fill-mode;
+animation: abc 10s infinite;
+@keyframes abc{
+0%{
+
+}
+50%{
+    background-color: lightcoral;
+    margin-left: 500px;
+
+}
+100%{
+    background-color: green;
+    margin-left: 1000px;
+}
+} */
